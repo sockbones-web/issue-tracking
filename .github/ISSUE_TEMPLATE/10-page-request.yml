@@ -30,4 +30,20 @@ body:
       placeholder: |
         - John Doe (PMM)
         - Sarah Fisherman (MUX)
+  - type: dropdown
+    id: size
+    attributes:
+      label: Size
+      description: Quick estimate of the complexity or size of this work
+      options:
+        - Small
+        - Medium
+        - Large
+        - Extra large
+  - type: input
+    id: target_date
+    attributes:
+      label: Target Date
+      description: Desired date for this asset to be available
+      placeholder: Jan 28 2024
 ---
