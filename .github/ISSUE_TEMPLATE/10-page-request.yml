@@ -1,0 +1,33 @@
+---
+name: Landing Page
+description: Request a new page or updates to an existing page on shopify.com
+labels: ["Type: Story","Craft: Design","Craft: Content","Craft: FED"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The intention of this form is to _facilitate_ discussion, not _replace_ it. It's relatively unstructured, so capture critical requirements, ideas, decisions, and tasks that evolve during discussion below.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Provide any requirements, ideas, decisions, links to external documents, etc below which which may be helpful to scoping and delivering this work.
+  - type: input
+    id: figma_link
+    attributes:
+      label: Figma link
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Include the URL, if known.
+      placeholder: https://www.shopify.com/my-shiny-new-page
+  - type: textarea
+    id: stakeholders
+    attributes:
+      label: Stakeholders
+      description: Please specify related stakeholders to get approval from
+      placeholder: |
+        - John Doe (PMM)
+        - Sarah Fisherman (MUX)
+---
