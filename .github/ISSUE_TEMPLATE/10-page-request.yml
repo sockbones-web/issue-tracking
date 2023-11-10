@@ -31,6 +31,16 @@ body:
         - John Doe (PMM)
         - Sarah Fisherman (MUX)
   - type: dropdown
+    id: product_area
+    attributes:
+      label: Product Area
+      options:
+        - Plus
+        - Money
+        - Retail
+        - Markets
+        - Audiences
+  - type: dropdown
     id: size
     attributes:
       label: Size
